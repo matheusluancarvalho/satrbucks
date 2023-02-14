@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#conteiner-cabecalho {
+    width: 100%;
+    height: 93px;
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: center;
+    background: green;
+}
+
+
+.box-top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: red;
+}
+
+.navegacao{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.topo-direito {
+    display: flex;
+    background: pink;
+}
+
+.topo-direito img {
+    width: 80px;
+}
+
+.topo-esquerdo {
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+}
+
+.topo-direito ul{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.topo-esquerdo .historia{
+    width: 134px;
+}
+
+.topo-esquerdo .pino{
+    width: 24px;
+}
